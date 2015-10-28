@@ -1,0 +1,4 @@
+git push origin master
+
+//origin is the remote repo name
+//master is the branch name
