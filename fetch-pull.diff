@@ -1,0 +1,4 @@
+git fetch 是将远程更新到  Remote Tracking Branches 的暂存区，在这里可以diff . 然后可以 git merge
+git pull 是将远程更新拉到 Remote Tracking Branches 的暂存区，然后直接 merge.
+
+git pull = git fetch + git merge
