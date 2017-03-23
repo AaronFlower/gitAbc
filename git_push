@@ -1,6 +1,6 @@
 项目进行到一个阶段，要同别人分享目前的成果，可以将本地仓库中的数据推送到远程仓库。
 实现这个任务的命令很简单： git push [remote-name] [branch-name]。
-如一个 newfeature 的成果：git checkout -b newfeature
+新建 newfeature ：git checkout -b newfeature
 将新的newfeature 推送到远程分享: git push origin newfeature
 
 
