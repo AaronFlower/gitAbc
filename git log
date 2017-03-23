@@ -1,0 +1,30 @@
+
+git log -p -2 
+	我们常用 -p 选项展开显示每次提交的内容差异，用-2则仅显示最近的两次更新。
+gti log --state 	
+	仅显示简要的增给改行数统计。在做代码审查，或者要快速浏览其他协作者提交的更新都作了哪些改动时。
+
+
+选项 		说明
+-p 			按补丁格式显示每个更新之间的差异。
+--stat 		显示每次更新的文件修改统计信息。
+--shortstat 只显示 --stat 中最后的行数修改添加移除统计。
+--name-only 仅在提交信息后显示已修改的文件清单。
+--name-status 显示新增、修改、删除的文件清单。
+--abbrev-commit 仅显示 SHA-1 的前几个字符，而非所有的 40 个字符。
+--relative-date 使用较短的相对时间显示（比如，“2 weeks ago”）。
+--graph 	显示 ASCII 图形表示的分支合并历史。
+--pretty 	使用其他格式显示历史提交信息。可用的选项包括 oneline，short，full，fuller 和 format（后跟指定格式）。
+
+条件选项
+选项 	说明
+-(n) 				仅显示最近的 n 条提交
+--since, --after 	仅显示指定时间之后的提交。
+--until, --before 	仅显示指定时间之前的提交。
+--author 			仅显示指定作者相关的提交。
+--committer 		仅显示指定提交者相关的提交。
+
+
+查看指定文件的变更记录。 glol会有author出现。
+glol -p -- app_config.js
+
